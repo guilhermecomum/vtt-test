@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.transcript {
+    border: 1px solid #ccc;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.line {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.line:hover {
+    background: pink;
+}
+
+.time {
+    display: none;
+    margin-right: 20px;
+}
+
+.match {
+    background: yellow;
+}
